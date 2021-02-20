@@ -1,0 +1,231 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.row { width: 100%;}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.columns {
+  position: absolute;
+  width: 315px;
+  background-color: #232323;
+  border-radius: 8px;
+  height: 587px;
+  top: 270px;
+}
+
+.colTitles {
+  position: absolute;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.375px;
+
+  color: #000000;
+}
+
+.colTitlesSub {
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.2625px;
+  width: 204px;
+  height: 38px;
+  color: #888888;
+}
+
+.col1 {
+  position: absolute;
+  top: 170px;
+  left: 45px;
+  width: 315px;
+}
+
+.col2 {
+  position: absolute;
+  top: 170px;
+  width: 315px;
+  left: 375px;
+}
+
+.col3 {
+  position: absolute;
+  top: 170px;
+  width: 315px;
+  left: 705px;
+}
+
+.col4 {
+  position: absolute;
+  top: 170px;
+  width: 315px;
+  left: 1035px;
+}
+
+.colTitleS1 {
+  top: 234px;
+  left: 45px;
+}
+
+.colTitleS2 {
+  top: 234px;
+  left: 375px;
+}
+
+.colTitleS3 {
+  top: 234px;
+  left: 705px;
+}
+
+.colTitleS4 {
+  top: 234px;
+  left: 1035px;
+}
+
+.itemContainer {
+  position: relative;
+  width: 294px;
+  height: 80px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+}
+
+.banyanHeader {
+  text-align: left;
+  width: 100%;
+  color: black;
+  font-size: 30px;
+  font-weight: 500; 
+  line-height: 38px;
+}
+
+.banyanHeaderSub {
+  text-align: left;
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.2625px;
+  width: 204px;
+  height: 38px;
+  color: #888888;
+
+}
+
+.banyanColumn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  width: 315px;
+  background-color: #232323;
+  border-radius: 8px;
+  height: 587px;
+}
+
+.banyanColumnInner {
+  width: 100%;
+  text-align: left;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+  height: 80px;
+}
+
+.header {
+  position: absolute;
+  left: 45px;
+  width: 100%;
+  top: 50px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.555px;
+
+  color: #000000;
+}
+
+.dateTime {
+  position: absolute;
+  left: 45px;
+  width: 100%;
+  top: 96px;
+
+  text-align: left;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 41px;
+  /* identical to box height */
+  
+  letter-spacing: -0.4625px;
+  
+  color: #888888;
+
+}
+
+.headerLine {
+  position: absolute;
+  left: 45px;
+  width: 1304px;
+  border-bottom: 1px solid #cccccc;
+  height: 1px;
+  top: 150px;
+}
+
+.addTask {
+  margin-top: 21px;
+  text-align: left;
+  color: #888888;
+}
